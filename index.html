@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repostería Martell - Pasteles</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <a class="navbar-brand" href="index.html">Repostería Martell</a>
+            <div class="navbar-center">
+                <img src="https://trazoscreativos.com/wp-content/uploads/2021/02/articulo-logos-reposter%C3%ADa-01-1024x614.jpg" alt="Logo" class="logo-center">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Pasteles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="postres.html">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h1 class="mt-5">Nuestros Pasteles</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://granodeorohonduras.com/cdn/shop/products/Pasteldechocolatepara15porciones_590x.jpg?v=1615683333" alt="Pastel 1" class="img-fluid">
+                <h3>Pastel de Chocolate</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="https://granodeorohonduras.com/cdn/shop/products/Pasteldecafepara15porciones_590x.jpg?v=1615683011" alt="Pastel 2" class="img-fluid">
+                <h3>Pastel de Café</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="https://granodeorohonduras.com/cdn/shop/products/Pastelcookies_cream8porciones_590x.jpg?v=1615682519" alt="Pastel 3" class="img-fluid">
+                <h3>Pastel de Fresas</h3>
+            </div>
+        </div>
+    </main>
+
+    <section class="product-banner">
+        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://imgs.search.brave.com/Ab_lEi-6FOWsXLzDU3oiqleClm31WzumFJiI0QI4EVg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zMS5z/aWduaWZpY2Fkb3Mu/Y29tL2ZvdG8vcmVz/cG9zdGVyaWEuanBn/P2NsYXNzPWFydGlj/bGU" class="d-block w-100" alt="Producto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/UTdHK2_cVucJCa8udi4IaY9yq9W88pXL0v4_uC9TWw4/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/cGVxdWVyZWNldGFz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAyMC8wOS90YXJ0/YS10cmVzLWNob2Nv/bGF0ZXMtNjYweDYw/Mi5qcGc" class="d-block w-100" alt="Producto 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/yKv8xj-I-K7S376I8Wqx7qR9vNPHrXk3scIAIPG25Eg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LWNvY2luYS5s/ZWN0dXJhcy5jb20v/bWVkaW8vMjAxOC8w/Ny8xOS9wYXNvLWEt/cGFzby1wYXJhLXJl/YWxpemFyLWxhLXRh/cnRhLXNhY2hlci1h/bC1lc3RpbG8tY2xh/c2ljby1yZXN1bHRh/ZG8tZmluYWxfNmZj/M2MzNjBfNjAweDYw/MC5qcGc" class="d-block w-100" alt="Producto 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-light text-center p-3 mt-5">
+        <p>&copy; 2024 Repostería Delicias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000,
+            ride: 'carousel'
+        });
+    </script>
+</body>
+</html>

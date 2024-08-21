@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repostería Martell - Postres</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-between">
+            <a class="navbar-brand" href="index.html">Repostería Martell</a>
+            <div class="navbar-center">
+                <img src="https://trazoscreativos.com/wp-content/uploads/2021/02/articulo-logos-reposter%C3%ADa-01-1024x614.jpg" alt="Logo" class="logo-center">
+            </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Pasteles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="postres.html">Postres</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pedidos.html">Pedidos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
+
+    <main class="container">
+        <h1 class="mt-5">Nuestros Postres</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://www.allrecipes.com/thmb/DHosjm3NundSDP1q6wWEEECYwr8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8419-easy-sour-cream-cheesecake-DDMFS-beauty-4x3-BG-2747-44b427d330aa41aa876269b1249698a0.jpg" alt="Postre 1" class="img-fluid">
+                <h3>Cheesecake</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Tiramisu_-_Raffaele_Diomede.jpg" alt="Postre 2" class="img-fluid">
+                <h3>Tiramisu</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="https://granodeorohonduras.com/cdn/shop/products/flanImposible_590x.jpg?v=1616299126" alt="Postre 3" class="img-fluid">
+                <h3>Flan</h3>
+            </div>
+        </div>
+    </main>
+
+    <section class="product-banner">
+        <div id="productCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://imgs.search.brave.com/xhKFu79PtR5T9Px0lcn7VWxODU0YvFhcgBQ3IkiqUMY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9nYXN0/cm9ub21pY2FpbnRl/cm5hY2lvbmFsLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/MC8wNC9yZXBvc3Rl/cmlhLTItMS5qcGc" class="d-block w-100" alt="Producto 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/QJnvXnWPjNdQQ4ZD0-xRAVJFyGfclzAezInE73Q9AXw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LWNvY2luYS5s/ZWN0dXJhcy5jb20v/bWVkaW8vMjAyMS8w/Ni8yNC90YXJ0LWRl/LXF1ZXNvLWNvbi1u/YXRhLXktY2hvY29s/YXRlXzAwMDAwMDAw/XzI0MDczMDA5NTk1/NV82MDB4NjAwLmpw/Zw" class="d-block w-100" alt="Producto 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://imgs.search.brave.com/J20udNJttj5TQ1kIyNCD-Xrk3PFBG7kHNOZMUQjiSM8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2FzdHJvbm9taWF5/Y2lhLmNvbS93cC1j/b250ZW50L3Bob3Rv/cy9iaXpjb2Nob3Bv/bHZvbGVjaGUxLmpw/Zw" class="d-block w-100" alt="Producto 3">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="bg-light text-center p-3 mt-5">
+        <p>&copy; 2024 Repostería Delicias. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('.carousel').carousel({
+            interval: 3000,
+            ride: 'carousel'
+        });
+    </script>
+    
+</body>
+</html>
